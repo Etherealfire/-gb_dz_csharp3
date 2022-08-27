@@ -1,0 +1,12 @@
+Console.WriteLine("Введите число:");
+double number = Convert.ToDouble(Console.ReadLine());
+double index = 1;
+
+
+Console.WriteLine("Таблица кубов чисел: ");
+while (index <= number)
+{
+	double result = Math.Pow(index, 3);
+	index += 1;
+	Console.Write((result) + " ");
+}
